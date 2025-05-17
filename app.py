@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/')
 def index():
-    return "Flask server is running"
+    return "Server is running!"
 
 @app.route('/chat', methods=['POST'])
 def chat():
